@@ -8,7 +8,8 @@
 
 /********************************************/
 
-
+// SEE COMMENTS ON SERCOM_Module.cpp
+// RENAMING SERCOM_Module.h/.cpp also solves the problem
 //#include <SERCOM_Module.h>
 
 // REMOVE THIS AND FREEZES GO AWAY

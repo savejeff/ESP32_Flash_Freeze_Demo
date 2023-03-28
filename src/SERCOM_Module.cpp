@@ -1,12 +1,14 @@
 #include "SERCOM_Module.h"
 
+// MOVE THIS CODE TO THE MAIN.CPP AND THIS SOLVES THE FREEZ AS WELL
 
+// REMOVE THIS TO SOLVE THE FREEZES
 jSerialHard jSerial0(Serial);
 jSerialHard jSerial1(Serial1);
 jSerialHard jSerial2(Serial2);
 
-
+// REMOVE THIS TO SOLVE THE FREEZES
 jI2C_Soft _I2C0(21, 22);
 
-
+// REMOVE THIS TO SOLVE THE FREEZES
 jSPI_Hard SPI0(&SPI, 18, 19, 23);
